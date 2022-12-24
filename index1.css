@@ -1,0 +1,47 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.QRcode-card{
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    overflow:hidden;
+    border-radius: 10px;
+
+
+}
+.QRcode-image {
+    padding: 15px;
+
+}
+.QRcode-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+    
+    
+
+
+.QRcode-content{
+    padding: 15px;
+}
+.QRcode-title{
+    font-family:Outfit;
+    text-transform:none;
+    font-weight: 700;
+    font-size: 1.55em;
+    margin: 0px;
+    text-align: center;
+}
+.QRcode-description{
+    color:hsl(220, 15%, 55%);
+    /* line-height: 1.6; */
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+}
